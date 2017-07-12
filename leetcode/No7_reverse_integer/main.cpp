@@ -22,6 +22,7 @@ int reverse(int x) {
 	return inv_x;
 }
 
+#include <cstdio>
 #include<cassert>
 int main(char* argv, int argc) {
 	assert(reverse(0) == 0);
